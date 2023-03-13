@@ -4,7 +4,7 @@ from eth_account import Account
 from web3 import Web3
 
 # Define the number of wallets to generate
-num_wallets = 10000
+num_wallets = 1000
 
 # Connect to an Ethereum node
 w3 = Web3(Web3.HTTPProvider('https://side-billowing-field.discover.quiknode.pro/fe31c15caf12efff9a326afac2670903fa5ab626'))
