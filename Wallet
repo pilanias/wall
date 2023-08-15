@@ -7,7 +7,7 @@ from web3 import Web3
 num_wallets = 1000
 
 # Connect to an Ethereum node
-w3 = Web3(Web3.HTTPProvider('https://127.0.0.1:8551'))
+w3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/f88a41393ea74a5d9621567c904d066f'))
 
 # Measure the start time
 start_time = time.time()
